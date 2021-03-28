@@ -8,7 +8,7 @@ class QuadraticEquation extends LinearEquation implements EquationInterface
 {
     public $d;
 
-    public function solve($a, $b, $c)
+    public function solve (float $a,float $b,float $c): array
     {
         if ($a == 0) {
             return $this->Linear_equation($b, $c);

@@ -9,13 +9,13 @@ use core\LogInterface;
 class MyLog extends LogAbstract implements LogInterface
 {
 
-    public static function log($str)
+    public static function log(string $str): void
     {
         LogAbstract::Instance()->_log($str);
     }
 
 
-    public static function write()
+    public static function write(): void
     {
         LogAbstract::Instance()->_write();
     }
