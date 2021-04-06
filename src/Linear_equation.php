@@ -13,7 +13,7 @@ class LinearEquation
             $error = 'Уравнение не существует';
             throw new TimofeevExeption($error);
         }
-        MyLog::Instance()->log("Линейное уравнение");
+
         return $this->x = [(-$b) / $a];
     }
 }

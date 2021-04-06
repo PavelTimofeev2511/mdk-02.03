@@ -22,7 +22,7 @@ class QuadraticEquation extends LinearEquation implements EquationInterface
             $error = 'Уравнение не имеет решения';
             throw new TimofeevExeption($error);
         }
-        Mylog::Instance()->log("Квадратное уравнение");
+
         return $this->x = [(-1 * $b - sqrt($this->d)) / (2 * $a), (-1 * $b + sqrt($this->d)) / (2 * $a)];
 
 
