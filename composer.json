@@ -12,9 +12,6 @@
     "rok9ru/trpo-core": "^2.0"
   },
   "autoload": {
-    "psr-4": {
-      "timofeev\\": "src"
-    },
     "classmap": ["src/"]
   },
   "require-dev": {
